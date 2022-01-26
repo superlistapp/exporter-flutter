@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class AppColors {
+class GeneratedColorPalette {
 
 {[ let brand = ds.currentBrand() /]}
 {[ const colorTokensTree = ds.tokenGroupTreeByType("Color", brand.id) /]}
@@ -17,5 +17,5 @@ class AppColors {
   
   {[/]}
 {[/]}
-  AppColors._();
+  GeneratedColorPalette._();
 }

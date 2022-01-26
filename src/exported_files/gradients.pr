@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class AppGradients {
+class GeneratedGradients {
 
 {[ let brand = ds.currentBrand() /]}
 {[ const gradientTokensTree = ds.tokenGroupTreeByType("Gradient", brand.id) /]}
@@ -31,5 +31,5 @@ class AppGradients {
 
   {[/]}
 {[/]}
-  AppGradients._();
+  GeneratedGradients._();
 }
