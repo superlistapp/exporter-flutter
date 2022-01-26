@@ -1,6 +1,6 @@
 {
     "id": "com.superlist.flutter-styles",
-    "name": "Flutter",
+    "name": "Flutter (Superlist fork)",
     "description": "Flutter token and style exporter",
     "source_dir": "src",
     "version": "1.2",
