@@ -1,5 +1,9 @@
 <img src="./readme-icon.png" alt="Supernova Logo" style="max-width:100%;">
 
+NOTE: this is a fork with the following changes to the original exporter:
+* Update exporter identifier
+* Export only colors and gradients
+* Adjust class names 
 
 [Supernova](https://supernova.io) is a design system platform that manages your assets, tokens, components and allows you to write spectacular documentations for your entire teams. And because you found your way here, you are probably interested in its most advanced functionality - automatic hand-off of design and development assets, tokens and data in general. To learn everything Supernova, please check out our [developer documentation](https://developers.supernova.io/).
 
@@ -10,12 +14,12 @@
 The Flutter Exporter allows you to **produce production-ready code for all product styles (such as colors) defined inside your design system** in such a way that you can immediately use them to style your application elements. Specifically, this exporter automates the coding of:
 
 - [x] Color definitions
-- [x] Text Styles
+- [ ] Text Styles
 - [x] Gradients
-- [x] Shadows
-- [x] Borders
-- [x] Radii
-- [x] Measures
+- [ ] Shadows
+- [ ] Borders
+- [ ] Radii
+- [ ] Measures
 
 The exporter will generate a class per style type with a static constant for each specific token. If provided, it will also include each token's description as a documentation comment. Here's an example of the exporter ouput for a single `11 Regular Italic` text style under a `Text` group:
 
