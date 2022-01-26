@@ -1,5 +1,5 @@
 {
-    "id": "io.supernova.flutter-styles",
+    "id": "com.superlist.flutter-styles",
     "name": "Flutter",
     "description": "Flutter token and style exporter",
     "source_dir": "src",
